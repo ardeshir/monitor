@@ -1,7 +1,7 @@
-# metrics with prometheus go client
+# Metrics with prometheus go client
 
-## HELP go_gc_duration_seconds A summary of the GC invocation durations.
-## TYPE go_gc_duration_seconds summary
+### HELP go_gc_duration_seconds A summary of the GC invocation durations.
+### TYPE go_gc_duration_seconds summary
 go_gc_duration_seconds{quantile="0"} 0
 go_gc_duration_seconds{quantile="0.25"} 0
 go_gc_duration_seconds{quantile="0.5"} 0
@@ -9,11 +9,11 @@ go_gc_duration_seconds{quantile="0.75"} 0
 go_gc_duration_seconds{quantile="1"} 0
 go_gc_duration_seconds_sum 0
 go_gc_duration_seconds_count 0
-## HELP go_goroutines Number of goroutines that currently exist.
-## TYPE go_goroutines gauge
+### HELP go_goroutines Number of goroutines that currently exist.
+### TYPE go_goroutines gauge
 go_goroutines 6
-## HELP go_memstats_alloc_bytes Number of bytes allocated and still in use.
-## TYPE go_memstats_alloc_bytes gauge
+### HELP go_memstats_alloc_bytes Number of bytes allocated and still in use.
+### TYPE go_memstats_alloc_bytes gauge
 go_memstats_alloc_bytes 490360
 ## HELP go_memstats_alloc_bytes_total Total number of bytes allocated, even if freed.
 ## TYPE go_memstats_alloc_bytes_total counter
